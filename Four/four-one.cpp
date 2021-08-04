@@ -1,21 +1,23 @@
-/// Rectangle Pattern  Questions -
-
-#include <iostream>
+#include<iostream>
 using namespace std;
 
 int main()
 {
-    int rows,col;
-    cin>>rows;
-    cin>>col;
+    int row,col,i,j;
+    cin>>row>>col;
 
-    for (int  i = 0; i < rows; ++i)
+    for ( i = 0; i <=row; i++)
     {
-        for (int j = 0; j < col; ++j)
+        for ( j = 0; j <=col; j++)
         {
             cout<<"*";
+            cout<<"*";
+            cout<<"*";
+            cout<<"*";
+            cout<<"*";
+            cout<<endl;
         }
-        cout<<endl;
+        
     }
-    
+    return 0;
 }
